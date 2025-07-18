@@ -7,7 +7,7 @@ Aqui você irá encontrar algumas informações relevantes a certa desse reposit
 ## Índice:
 
 - [Instruções de execução](#instruções-de-execução)
-- [Tecnologias utilizadas](#tecnologias-utilizadas)
+- [Técnologias utilizadas](#técnologias-utilizadas)
 - [Metodologias utilizadas](#metodologias-utilizadas)
 
 <br>
