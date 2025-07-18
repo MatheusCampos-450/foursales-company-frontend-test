@@ -1,69 +1,50 @@
-# React + TypeScript + Vite
+# Teste Técnico BeTalent: 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aqui você irá encontrar algumas informações relevantes a certa desse repositório!
 
-Currently, two official plugins are available:
+<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Índice:
 
-## Expanding the ESLint configuration
+- [Instruções de execução](#instruções-de-execução)
+- [Tecnologias utilizadas](#tecnologias-utilizadas)
+- [Metodologias utilizadas](#metodologias-utilizadas)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+<br>
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Instruções de execução:
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+É importante salientar que é necessário que o gerenciador de pacotes ```yarn``` precisa estar instalado em sua máquina.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1. Realize o clone do repositório ```git clone https://github.com/MatheusCampos-450/foursales-company-frontend-test.git```;
+2. Execute o comando ```yarn``` para instalar todas as dependências do projeto;
+4. Execute o comando ```yarn dev``` para executar o projeto em modo desenvolvimento;
+5. Acesse a url [http://localhost:5173/](http://localhost:5173/).
+   
+<br>
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Descrição:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Utilizei o Figma para prototípação, o React junto com styled-components e typescript para criação e estilização dos componentes. Por fim, utilizei o Prettier e EsLint para formação e padronização do cógido.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+O projeto foi desenvolvido utilizando da padrão DDD. Logo as pastas são divididas em @core, onde está localizada a regra de negocio e presentation, onde está toda a camada de exibição (componentes e estilização).
+
+<br>
+
+## Técnologias utilizadas:
+
+- ReactJS
+- Styled-Components
+- Typescript
+- EsLint
+- Prettier
+- Vite
+- Figma
+
+<br>
+
+## Metodologias utilizadas:
+
+- Clean Architecture
+- DDD
+
