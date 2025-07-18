@@ -1,4 +1,4 @@
-# Teste Técnico BeTalent: 
+# Teste Técnico Foursales Company: 
 
 Aqui você irá encontrar algumas informações relevantes a certa desse repositório!
 
