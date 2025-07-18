@@ -27,7 +27,7 @@ Aqui você irá encontrar algumas informações relevantes a certa desse reposit
 
 Utilizei o Figma para prototípação, o React junto com styled-components e typescript para criação e estilização dos componentes. Por fim, utilizei o Prettier e EsLint para formação e padronização do cógido.
 
-O projeto foi desenvolvido utilizando da padrão DDD. Logo as pastas são divididas em @core, onde está localizada a regra de negocio e presentation, onde está toda a camada de exibição (componentes e estilização).
+O projeto foi desenvolvido utilizando da padrão DDD. Logo as pastas são divididas em @core, onde está localizada a regra de negócio e a pasta presentation, onde está toda a camada de exibição (componentes e estilização).
 
 <br>
 
